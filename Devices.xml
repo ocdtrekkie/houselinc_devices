@@ -1,0 +1,3404 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<deviceFactory version="2.9.80">
+  <availableDevices>
+    <category devCat="0xFF" description="Reserved">
+      <device displayName="Unrecognized INSTEON Device" category="0xFF" subcategory="0x00" productKey="0x000000">
+        <description>Unrecognized INSTEON Device</description>
+        <firmwareRevisions>
+          <revision revNumber="0x00" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="Unknown Device" category="0xFF" subcategory="0x01" productKey="0x000000">
+        <description>Unrecognized INSTEON Device</description>
+        <firmwareRevisions>
+          <revision revNumber="0x00" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+    </category>
+    <category devCat="0x00" description="Generalized Controllers">
+      <device displayName="ControLinc" category="0x00" subcategory="0x04" productKey="0x000000" flags="0x0020">
+        <description>ControLinc [2430]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x20" top="1.0" />
+          <revision revNumber="0x21" top="1.1" />
+          <revision revNumber="0x22" top="1.2" />
+          <revision revNumber="0x23" top="1.3, 1.4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ControLinc01" />
+      </device>
+      <device displayName="ControLinc" category="0x00" subcategory="0x04" productKey="0x000000" flags="0x0020">
+        <description>ControLinc [2430]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x54" />
+          <revision revNumber="0x55" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ControLinc02" />
+      </device>
+      <device displayName="RemoteLinc" category="0x00" subcategory="0x05" productKey="0x000034" flags="0x0020">
+        <description>RemoteLinc [2440]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" top="1.0" />
+          <revision revNumber="0x35" top="1.1, 1.2" />
+          <revision revNumber="0x7C" top="1.1, 1.2" />
+          <revision revNumber="0x80" top="1.1, 1.2" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc01" />
+      </device>
+      <device displayName="Mini Remote - 4 Scene" category="0x00" subcategory="0x10" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 4 Scene [2444A2WH4]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201" />
+      </device>
+      <device displayName="Mini Remote - 4 Scene" category="0x00" subcategory="0x10" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 4 Scene [2444A2WH4]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x37" />
+          <revision revNumber="0x94" />
+          <revision revNumber="0x95" />
+          <revision revNumber="0x96" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - Switch" category="0x00" subcategory="0x11" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - Switch [2444A3]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202" />
+      </device>
+      <device displayName="Mini Remote - Switch" category="0x00" subcategory="0x11" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - Switch [2444A3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x37" />
+          <revision revNumber="0x94" />
+          <revision revNumber="0x95" />
+          <revision revNumber="0x96" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202CS" />
+      </device>
+      <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x12" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 8 Scene [2444A2WH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201" />
+      </device>
+      <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x12" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 8 Scene [2444A2WH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x37" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0x93" />
+          <revision revNumber="0x94" />
+          <revision revNumber="0x95" />
+          <revision revNumber="0x96" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - 4 Scene" category="0x00" subcategory="0x14" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 4 Scene [2342-432]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - Switch" category="0x00" subcategory="0x15" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - Switch [2342-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202CS" />
+      </device>
+      <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x16" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 8 Scene [2342-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - 4 Scene" category="0x00" subcategory="0x17" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 4 Scene [2342-532]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x18" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 8 Scene [2342-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - Switch" category="0x00" subcategory="0x19" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - Switch [2342-542]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202CS" />
+      </device>
+      <device displayName="Mini Remote - 4 Scene" category="0x00" subcategory="0x1A" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 4 Scene [2342-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x38" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x1B" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - 8 Scene [2342-232]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
+      </device>
+      <device displayName="Mini Remote - Switch" category="0x00" subcategory="0x1C" productKey="0x000000" flags="0x0028">
+        <description>Mini Remote - Switch [2342-242]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x38" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202CS" />
+      </device>
+      <device displayName="ICON Tabletop Controller" category="0x00" subcategory="0x06" productKey="0x000000" flags="0x0020">
+        <description>ICON Tabletop Controller [2830]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x22" top="1.2" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ControLinc01" />
+      </device>
+      <device displayName="EZBridge/EZServer" category="0x00" subcategory="0x08" productKey="0x000000">
+        <description>EZBridge/EZServer</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="SignaLinc" category="0x00" subcategory="0x09" productKey="0x000000">
+        <description>SignaLinc RF Signal Enhancer [2442]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x10" />
+          <revision revNumber="0x20" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="Poolux LCD Controller" category="0x00" subcategory="0x0A" productKey="0x000007">
+        <description>Poolux LCD Controller</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Range Extender" category="0x00" subcategory="0x0B" productKey="0x000022">
+        <description>Range Extender (Wireless Phase Coupler) [2443]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.AccessPoint01" />
+      </device>
+      <device displayName="Range Extender" category="0x00" subcategory="0x1D" productKey="0x000022">
+        <description>Range Extender [2992-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.AccessPoint01" />
+      </device>
+      <device displayName="IES Color Touchscreen" category="0x00" subcategory="0x0C" productKey="0x000028">
+        <description>IES Color Touchscreen</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+    </category>
+    <category devCat="0x01" description="Dimmable Lighting Control">
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x00" productKey="0x000000">
+        <description>LampLinc Dimmer [2456D3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" top="1.0, 1.1" />
+          <revision revNumber="0x20" top="2.0, 2.1" />
+          <revision revNumber="0x22" top="2.2" />
+          <revision revNumber="0x23" top="2.3" />
+          <revision revNumber="0x24" top="2.4, 2.5" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" top="2.6, 2.7, 4.1" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc01" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x00" productKey="0x000000">
+        <description>LampLinc Dimmer [2456D3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" top="4.0, 4.1, 4.2, 4.3" />
+          <revision revNumber="0x33" top="4.02, 4.05" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" top="4.4" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0x9E" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x00" productKey="0x000000" flags="0x000C">
+        <description>LampLinc Dimmer [2456D3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02CS" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x01" productKey="0x000000" flags="0x0004">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" top="1.0" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" top="2.0" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" top="2.1, 2.2" />
+          <revision revNumber="0x27" top="2.3" />
+          <revision revNumber="0x28" top="2.4, 2.5, 3.0, 3.2, 3.3" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x01" productKey="0x000000" flags="0x000C">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" top="4.0, 4.1, 4.2"/>
+          <revision revNumber="0x37" top="4.3, 4.35" />
+          <revision revNumber="0x38" top="4.5" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0xA8" />
+          <revision revNumber="0xAF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x19" productKey="0x000000" flags="0x0006">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x38" />
+          <revision revNumber="0xAF" />
+          <revision revNumber="0xC2" />
+          <revision revNumber="0x40" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x19" productKey="0x000000" flags="0x000F">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xCC" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+          <revision revNumber="0xD7" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x30" productKey="0x000000" flags="0x0007">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x30" productKey="0x000000" flags="0x000F">
+        <description>SwitchLinc Dimmer [2476D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xCC" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0xBE" />
+          <revision revNumber="0xBF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="In-LineLinc Dimmer" category="0x01" subcategory="0x02" productKey="0x000000">
+        <description>In-LineLinc Dimmer [2475D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" top="1.0, 1.1" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc01D" />
+      </device>
+      <device displayName="In-LineLinc Dimmer" category="0x01" subcategory="0x02" productKey="0x000000">
+        <description>In-LineLinc Dimmer [2475D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" top="4.0, 4.1" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" top="4.3" />
+          <revision revNumber="0xA3" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02D" />
+      </device>
+      <device displayName="In-LineLinc Dimmer" category="0x01" subcategory="0x1A" productKey="0x000000" flags="0x0004">
+        <description>In-LineLinc Dimmer [2475D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x38" top="5.0" />
+          <revision revNumber="0x3D" />
+          <revision revNumber="0x40" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02D" />
+      </device>
+      <device displayName="In-LineLinc Dimmer" category="0x01" subcategory="0x1A" productKey="0x000000" flags="0x0004">
+        <description>In-LineLinc Dimmer [2475D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+          <revision revNumber="0xD7" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+      <device displayName="In-Line Dimmer" category="0x01" subcategory="0x2C" productKey="0x000092" flags="0x000C">
+        <description>In-Line Dimmer [4712]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03D" />
+      </device>
+      <device displayName="ICON Dimmer Switch" category="0x01" subcategory="0x03" productKey="0x000000">
+        <description>ICON Dimmer Switch [2876D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x26" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x04" productKey="0x000000">
+        <description>SwitchLinc Dimmer (High Wattage) [2476DH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x04" productKey="0x000000" flags="0x0007">
+        <description>SwitchLinc Dimmer (High Wattage) [2476DH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" top="4.1, 4.2" />
+          <revision revNumber="0x37" top="4.3, 4.35" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0xA8" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x1D" productKey="0x000000" flags="0x0007">
+        <description>SwitchLinc Dimmer (High Wattage) [2476DH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x38" />
+          <revision revNumber="0x40" />
+          <revision revNumber="0xAD" />
+          <revision revNumber="0xAF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x20" productKey="0x00006B" flags="0x0007">
+        <description>SwitchLinc Dimmer [2477D]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x20" productKey="0x000000"  flags="0x0007">
+        <description>SwitchLinc Dimmer [2477D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xB2" />
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0xBE" />
+          <revision revNumber="0xBF" />
+          <revision revNumber="0xC0" />
+          <revision revNumber="0x41" />
+          <revision revNumber="0x42" />
+          <revision revNumber="0x43" />
+          <revision revNumber="0xC2" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="SwitchLinc 2-Wire Dimmer" category="0x01" subcategory="0x24" productKey="0x000000" flags="0x001F">
+        <description>SwitchLinc 2-Wire Dimmer (RF) [2474DWH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="INSTEON Ballast Dimmer" category="0x01" subcategory="0x25" productKey="0x000000"  flags="0x0007">
+        <description>INSTEON Ballast Dimmer [2475DA2]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x2D" productKey="0x00009E" flags="0x0007">
+        <description>SwitchLinc Dimmer [2477DH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x2D" productKey="0x00009E" flags="0x000F">
+        <description>SwitchLinc Dimmer [2477DH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0x41" />
+          <revision revNumber="0x42" />
+          <revision revNumber="0x43" />
+          <revision revNumber="0x44" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="Wall Dimmer - 1000W" category="0x01" subcategory="0x2B" productKey="0x000091" flags="0x000F">
+        <description>Wall Dimmer - 1000W [4711]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="Wall Dimmer" category="0x01" subcategory="0x27" productKey="0x000087" flags="0x000F">
+        <description>Wall Dimmer [4701]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="Keypad Countdown Timer" category="0x01" subcategory="0x05" productKey="0x000041">
+        <description>Keypad Countdown Timer with Dimmer [2484DWH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x2B" top="1.3" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="0x2D" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="KeypadLinc Schedule Timer with Dimmer" category="0x01" subcategory="0x2F" productKey="0x000000">
+        <description>KeypadLinc Schedule Timer with Dimmer [2484DST6]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03D" />
+      </device>
+      <device displayName="LampLinc" category="0x01" subcategory="0x06" productKey="0x000000">
+        <description>LampLinc [2456D2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" top="1.0, 1.1" />
+          <revision revNumber="0x20" top="2.0, 2.1" />
+          <revision revNumber="0x22" top="2.2" />
+          <revision revNumber="0x23" top="2.3" />
+          <revision revNumber="0x24" top="2.4" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc01" />
+      </device>
+      <device displayName="LampLinc" category="0x01" subcategory="0x06" productKey="0x000000">
+        <description>LampLinc [2456D2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" top="4.0, 4.1" />
+          <revision revNumber="0x33" top="4.02" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0x8C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02" />
+      </device>
+      <device displayName="ICON LampLinc" category="0x01" subcategory="0x07" productKey="0x000000">
+        <description>ICON LampLinc [2856D2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x26" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" top="4.0" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc01" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x09" productKey="0x000037">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x25" />
+          <revision revNumber="0x26" top="1.0, 1.1" />
+          <revision revNumber="0x28" top="1.2" />
+          <revision revNumber="0x29" top="1.3" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc01D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x09" productKey="0x000037">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x2A" top="1.5" />
+          <revision revNumber="0x2B" top="1.6, 1.60" />
+          <revision revNumber="0x2C" top="1.65" />
+          <revision revNumber="0x2D" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc02D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x09" productKey="0x000037">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x76" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x1B" productKey="0x000000" flags="0x0007">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x36" />
+          <revision revNumber="0x39" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x1B" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xB2" />
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03DCS" />
+      </device>
+      <device displayName="Keypad Dimmer" category="0x01" subcategory="0x41" productKey="0x000000" flags="0x000F">
+        <description>Keypad Dimmer[2334-222]</description>
+        <firmwareRevisions>
+ 	  <revision revNumber="CD" /> 
+ 	  <revision revNumber="44" />         
+	  <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc04DCS" />
+      </device>
+      <device displayName="Keypad Dimmer" category="0x01" subcategory="0x42" productKey="0x000000" flags="0x021F">
+        <description>Keypad Dimmer[2334-232]</description>
+        <firmwareRevisions>
+          <revision revNumber="C0" />
+		  <revision revNumber="0x43" />
+		  <revision revNumber="0x44" />
+		  <revision revNumber="CD" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc04DCS" />
+      </device>
+      <device displayName="Keypad with Dimmer" category="0x01" subcategory="0x42" productKey="0x000000" flags="0x000F">
+        <description>Keypad with Dimmer[2334-232]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03DCS" />
+      </device>
+      <device displayName="Wall Keypad Dimmer" category="0x01" subcategory="0x29" productKey="0x000089" flags="0x000F">
+        <description>Wall Keypad Dimmer [4703]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x1C" productKey="0x000000" flags="0x0007">
+        <description>KeypadLinc Dimmer[2486DWH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x36" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x1C" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc Dimmer[2486DWH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB2" />
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03DCS" />
+      </device>
+      <device displayName="ICON LampLinc" category="0x01" subcategory="0x07" productKey="0x000000">
+        <description>ICON LampLinc [2856D2B]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x26" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x32" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc01" />
+      </device>
+      <device displayName="ICON In-Wall Controller" category="0x01" subcategory="0x0A" productKey="0x000000">
+        <description>ICON In-Wall Controller</description>
+        <firmwareRevisions>
+          <revision revNumber="0x28" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc01D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x1B" productKey="0x00001D">
+        <description>KeypadLinc Dimmer[2486DWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x2A" top="1.5" />
+          <revision revNumber="0x2B" top="1.6, 1.60" />
+          <revision revNumber="0x2C" top="1.65" />
+          <revision revNumber="0x2D" top="1.8" />
+        </firmwareRevisions>
+        <parameters>
+          <parameter name="defaultChannelName" value="Scene" />
+        </parameters>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc02D" />
+      </device>
+      <device displayName="KeypadLinc Dimmer" category="0x01" subcategory="0x0C" productKey="0x00001D">
+        <description>KeypadLinc Dimmer[2486DWH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x2A" top="1.5" />
+          <revision revNumber="0x2B" top="1.6, 1.60" />
+          <revision revNumber="0x2C" top="1.65" />
+          <revision revNumber="0x2D" top="1.8" />
+        </firmwareRevisions>
+        <parameters>
+          <parameter name="defaultChannelName" value="Scene" />
+        </parameters>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc02D" />
+      </device>
+      <device displayName="SocketLinc" category="0x01" subcategory="0x0D" productKey="0x000000">
+        <description>SocketLinc [2454D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x02" />
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="0x30" />
+          <revision revNumber="0x81" />
+          <revision revNumber="0x82" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SocketLinc01" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x0E" productKey="0x000000" flags="0x0004">
+        <description>LampLinc Dimmer [2457D2]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x0E" productKey="0x000000" flags="0x000C">
+        <description>LampLinc Dimmer [2457D2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xCB" />
+          <revision revNumber="0xCC" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xD0" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02CS" />
+      </device>
+      <device displayName="Plug-in Dimmer" category="0x01" subcategory="0x2A" productKey="0x00008B" flags="0x000C">
+        <description>Plug-in Dimmer [4705]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x22" productKey="0x000000">
+        <description>LampLinc Dimmer [2457D2X]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02" />
+      </device>
+      <device displayName="LampLinc Dimmer" category="0x01" subcategory="0x22" productKey="0x000000" flags="0x000C">
+        <description>LampLinc Dimmer [2457D2X]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LampLinc02CS" />
+      </device>
+      <device displayName="ToggleLinc Dimmer" category="0x01" subcategory="0x17" productKey="0x000000">
+        <description>ToggleLinc Dimmer [2466DW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" top="1.0, 1.1, 1.2, 1.3" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc01D" />
+      </device>
+      <device displayName="ToggleLinc Dimmer" category="0x01" subcategory="0x17" productKey="0x000000">
+        <description>ToggleLinc Dimmer [2466DW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02D" />
+      </device>
+      <device displayName="ToggleLinc Dimmer" category="0x01" subcategory="0x1F" productKey="0x0000000">
+        <description>ToggleLinc Dimmer [2466DW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3A" />
+          <revision revNumber="0x40" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02D" />
+      </device>
+      <device displayName="ToggleLinc Dimmer" category="0x01" subcategory="0x1F" productKey="0x0000000" flags="0x000E">
+        <description>ToggleLinc Dimmer [2466DW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02DCS" />
+      </device>
+      <device displayName="ICON Dimmer Switch" category="0x01" subcategory="0x1E" productKey="0x000000" flags="0x0005">
+        <description>ICON Dimmer Switch [2876D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x39" />
+          <revision revNumber="0xAF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc03D" />
+      </device>
+      <device displayName="ICON SwitchLinc Dimmer In-line Companion" category="0x01" subcategory="0x18" productKey="0x000000">
+        <description>ICON SwitchLinc Dimmer In-line Companion [2474D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02D" />
+      </device>
+      <device displayName="OutletLinc Dimmer" category="0x01" subcategory="0x21" productKey="0x000000" flags="0x0004">
+        <description>OutletLinc Dimmer [2472DWH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01D" />
+      </device>
+      <device displayName="OutletLinc Dimmer" category="0x01" subcategory="0x21" productKey="0x000000" flags="0x0005">
+        <description>OutletLinc Dimmer [2472DWH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01DCS" />
+      </device>
+      <device displayName="FanLinc" category="0x01" subcategory="0x2E" productKey="0x000000" flags="0x000C">
+        <description>FanLinc [2475F]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3B" />
+          <revision revNumber="0xBA" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.FanLinc01D" />
+      </device>
+      <device displayName="FanLinc" category="0x01" subcategory="0x2E" productKey="0x000000" flags="0x000C">
+        <description>FanLinc [2475F]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0x44" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.FanLinc01DCS" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x31" productKey="0x000000" flags="0x0007">
+        <description>SwitchLinc Dimmer (Dual-Band) [2478D]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02D" />
+      </device>
+      <device displayName="SwitchLinc Dimmer" category="0x01" subcategory="0x31" productKey="0x000000" flags="0x0007">
+        <description>SwitchLinc Dimmer [2478D]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xBC" />
+          <revision revNumber="0xBD" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
+      </device>
+      <device displayName="In-LineLinc Dimmer" category="0x01" subcategory="0x32" productKey="0x000000" flags="0x0007">
+        <description>In-LineLinc Dimmer [2475DA1]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0x44" />
+          <revision revNumber="0xBD" />
+          <revision revNumber="0xBE" />
+          <revision revNumber="0xBF" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+      <device displayName="Dimmer Module" category="0x01" subcategory="0x0B" productKey="0x000000" flags="0x0093">
+        <description>Dimmer Module [2632-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginDimmerFR" />
+      </device>
+      <device displayName="Dimmer Module" category="0x01" subcategory="0x0F" productKey="0x000000" flags="0x0093">
+        <description>Dimmer Module [2632-432]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginDimmerGER" />
+      </device>
+      <device displayName="Dimmer Module" category="0x01" subcategory="0x11" productKey="0x000000" flags="0x0093">
+        <description>Dimmer Module [2632-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginDimmerUK" />
+      </device>
+      <device displayName="Dimmer Module" category="0x01" subcategory="0x12" productKey="0x000000" flags="0x0093">
+        <description>Dimmer Module [2632-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginDimmerAU" />
+      </device>
+      <device displayName="Micro Dimmer" category="0x01" subcategory="0x35" productKey="0x000000" flags="0x009F">
+        <description>Micro Dimmer [2442-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x48" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01D" />
+      </device>
+      <device displayName="Micro Dimmer" category="0x01" subcategory="0x38" productKey="0x000000" flags="0x009F">
+        <description>Micro Dimmer [2442-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01D" />
+      </device>
+      <device displayName="Micro Dimmer" category="0x01" subcategory="0x39" productKey="0x000000" flags="0x009F">
+        <description>Micro Dimmer [2442-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01D" />
+      </device>
+      <device displayName="DIN Rail Dimmer" category="0x01" subcategory="0x34" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail Dimmer [2452-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01D" />
+      </device>
+      <device displayName="DIN Rail Dimmer" category="0x01" subcategory="0x34" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail Dimmer [2252-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01D" />
+      </device>
+      <device displayName="DIN Rail Dimmer" category="0x01" subcategory="0x36" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail Dimmer [2452-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01D" />
+      </device>
+      <device displayName="DIN Rail Dimmer" category="0x01" subcategory="0x37" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail Dimmer [2452-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01D" />
+      </device>
+      <device displayName="LED Bulb" category="0x01" subcategory="0x3A" productKey="0x000000" flags="0x0045">
+        <description>LED Bulb [2672-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED Bulb" category="0x01" subcategory="0x3B" productKey="0x000000" flags="0x0003">
+        <description>LED Bulb [2672-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED Bulb" category="0x01" subcategory="0x3C" productKey="0x000000" flags="0x0003">
+        <description>LED Bulb [2672-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED PAR38 Bulb" category="0x01" subcategory="0x49" productKey="0x000000" flags="0x0003">
+        <description>LED PAR38 Bulb [2674-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED PAR38 Bulb" category="0x01" subcategory="0x4A" productKey="0x000000" flags="0x0003">
+        <description>Light PAR38 Switch [2674-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED PAR38 Bulb" category="0x01" subcategory="0x4B" productKey="0x000000" flags="0x0003">
+        <description>LED PAR38 Bulb [2672-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED Bulb" category="0x01" subcategory="0x4C" productKey="0x000000" flags="0x0003">
+        <description>LED Bulb [2672-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED Bulb" category="0x01" subcategory="0x4D" productKey="0x000000" flags="0x0003">
+        <description>LED Bulb [2672-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED PAR38 Bulb" category="0x01" subcategory="0x4E" productKey="0x000000" flags="0x0003">
+        <description>Light PAR38 Switch [2674-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="LED PAR38 Bulb" category="0x01" subcategory="0x4F" productKey="0x000000" flags="0x0003">
+        <description>LED PAR38 Bulb [2672-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LightSwitch01" />
+      </device>
+      <device displayName="Ballast Dimmer" category="0x01" subcategory="0x3D" productKey="0x000000" flags="0x000F">
+        <description>Ballast Dimmer (Dual-Band) [2446-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+      <device displayName="Ballast Dimmer" category="0x01" subcategory="0x3E" productKey="0x000000" flags="0x000F">
+        <description>Ballast Dimmer (Dual-Band) [2446-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+      <device displayName="Fixture Dimmer" category="0x01" subcategory="0x3F" productKey="0x000000" flags="0x000F">
+        <description>Fixture Dimmer (Dual-Band) [2447-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+      <device displayName="Fixture Dimmer" category="0x01" subcategory="0x40" productKey="0x000000" flags="0x000F">
+        <description>Fixture Dimmer (Dual-Band) [2447-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03DCS" />
+      </device>
+    </category>
+    <category devCat="0x02" description="Switched Lighting Control">
+      <device displayName="Outdoor ApplianceLinc" category="0x02" subcategory="0x06" productKey="0x000000">
+        <description>Outdoor ApplianceLinc [2456S3E]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x39" />
+          <revision revNumber="0x40" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xB1" />
+          <revision revNumber="0xCA" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02" />
+      </device>
+      <device displayName="Outdoor ApplianceLinc" category="0x02" subcategory="0x06" productKey="0x000000">
+        <description>Outdoor ApplianceLinc [2456S3E]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02CS" />
+      </device>
+      <device displayName="On/Off Outdoor Module" category="0x02" subcategory="0x38" productKey="0x000000">
+        <description>On/Off Outdoor Module [2634-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x43" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02CS" />
+      </device>
+      <device displayName="On/Off Outlet" category="0x02" subcategory="0x39" productKey="0x000000">
+        <description>On/Off Outlet [2663-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x44" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02CS" />
+      </device>
+      <device displayName="TimerLinc" category="0x02" subcategory="0x07" productKey="0x000000">
+        <description>TimerLinc [2456S3T]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TimerLinc01" />
+      </device>
+      <device displayName="OutletLinc Relay" category="0x02" subcategory="0x08" productKey="0x000023" flags="0x0004">
+        <description>OutletLinc Relay [2473SWH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" top="4.0" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0xA8" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01" />
+      </device>
+      <device displayName="OutletLinc Relay" category="0x02" subcategory="0x08" productKey="0x000023" flags="0x0004">
+        <description>OutletLinc Relay [2473SWH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xD0" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+          <revision revNumber="0x42" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01RCS" />
+      </device>
+      <device displayName="Outlet Switch" category="0x02" subcategory="0x21" productKey="0x00008C" flags="0x0004">
+        <description>Outlet Switch [4707]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01" />
+      </device>
+      <device displayName="ApplianceLinc" category="0x02" subcategory="0x09" productKey="0x000000">
+        <description>ApplianceLinc (3-Pin) [2456S3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" top="1.0, 1.1" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" top="1.2, 1.3" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc01" />
+      </device>
+      <device displayName="ApplianceLinc" category="0x02" subcategory="0x09" productKey="0x000000">
+        <description>ApplianceLinc (3-Pin) [2456S3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" top="4.0, 4.1" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0xCA" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02" />
+      </device>
+      <device displayName="ApplianceLinc" category="0x02" subcategory="0x09" productKey="0x000000" flags="0x000C">
+        <description>ApplianceLinc (3-Pin) [2456S3]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x42" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02CS" />
+      </device>
+      <device displayName="SwitchLinc Relay" category="0x02" subcategory="0x0A" productKey="0x000000">
+        <description>SwitchLinc Relay [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" top="2.0, 2.1" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" top="2.2" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" top="2.4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01R" />
+      </device>
+      <device displayName="SwitchLinc Relay" category="0x02" subcategory="0x0A" productKey="0x000000">
+        <description>SwitchLinc Relay [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0x99" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc Relay with Sense" category="0x02" subcategory="0x15" productKey="0x000000" flags="0x0006">
+        <description>SwitchLinc Relay with Sense [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x37" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc Relay with Sense" category="0x02" subcategory="0x15" productKey="0x000000" flags="0x000E">
+        <description>SwitchLinc Relay with Sense [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02RCS" />
+      </device>
+      <device displayName="SwitchLinc 220V Relay" category="0x02" subcategory="0x18" productKey="0x000060" flags="0x0004">
+        <description>SwitchLinc 220V Relay [2494S220]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc 220V Relay" category="0x02" subcategory="0x19" productKey="0x000000">
+        <description>SwitchLinc 220V Relay [2494S220]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc Relay" category="0x02" subcategory="0x1C" productKey="0x000000">
+        <description>SwitchLinc Relay [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3A" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc Relay" category="0x02" subcategory="0x1C" productKey="0x000000" flags="0x000E">
+        <description>SwitchLinc Relay [2476S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xCC" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xCF" />
+          <revision revNumber="0xD0" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02RCS" />
+      </device>
+      <device displayName="Wall Switch" category="0x02" subcategory="0x23" productKey="0x000088" flags="0x000C">
+        <description>Wall Switch [4702]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="SwitchLinc Relay (Dual-Band)" category="0x02" subcategory="0x2A" productKey="0x000000" flags="0x000F">
+        <description>SwitchLinc Relay [2477S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x44" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02RCS" />
+      </device>
+      <device displayName="Wall Keypad Switch 277V" category="0x02" subcategory="0x24" productKey="0x0000A1" flags="0x000F">
+        <description>Wall Keypad Switch 277V [4102]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="Keypad Countdown Timer 8-button" category="0x02" subcategory="0x25" productKey="0x000000">
+        <description>Keypad Countdown Timer 8-button [2484SWH8]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="KeypadLinc Schedule Timer On/Off Switch" category="0x02" subcategory="0x26" productKey="0x000000" flags="0x0007">
+        <description>KeypadLinc Schedule Timer On/Off Switch [2485SWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="ICON On/Off Switch" category="0x02" subcategory="0x0B" productKey="0x000000">
+        <description>ICON On/Off Switch [2876S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x24" />
+          <revision revNumber="0x26" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x60" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01R" />
+      </device>
+      <device displayName="ICON On/Off Switch" category="0x02" subcategory="0x0B" productKey="0x000000">
+        <description>ICON On/Off Switch [2876S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x36" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="ICON Appliance Module" category="0x02" subcategory="0x0C" productKey="0x000000">
+        <description>ICON Appliance Module [2856S3B]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x25" />
+          <revision revNumber="0x28" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc01" />
+      </device>
+      <device displayName="ICON Appliance Module" category="0x02" subcategory="0x0C" productKey="0x000000">
+        <description>ICON Appliance Module [2856S3B]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x32" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xAF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc02" />
+      </device>
+      <device displayName="ToggleLinc On/Off" category="0x02" subcategory="0x0D" productKey="0x000000">
+        <description>ToggleLinc On/Off [2466SW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc01R" />
+      </device>
+      <device displayName="ToggleLinc On/Off" category="0x02" subcategory="0x0D" productKey="0x000000">
+        <description>ToggleLinc On/Off [2466SW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x35" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02R" />
+      </device>
+      <device displayName="ToggleLinc On/Off" category="0x02" subcategory="0x1A" productKey="0x0000000" flags="0x0004">
+        <description>ToggleLinc On/Off [2466SW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3A" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02R" />
+      </device>
+      <device displayName="ToggleLinc On/Off" category="0x02" subcategory="0x1A" productKey="0x0000000" flags="0x000E">
+        <description>ToggleLinc On/Off [2466SW]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD5" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ToggleLinc02RCS" />
+      </device>
+      <device displayName="SwitchLinc Relay Countdown Timer" category="0x02" subcategory="0x0E" productKey="0x000000">
+        <description>SwitchLinc Relay Countdown Timer [2476ST]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+          <revision revNumber="0x63" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x37" />
+          <revision revNumber="0x38" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc01R" />
+      </device>
+      <device displayName="SwitchLinc Relay Countdown Timer" category="0x02" subcategory="0x29" productKey="0x000000">
+        <description>SwitchLinc Relay Countdown Timer [2476ST]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02R" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x0F" productKey="0x000036" flags="0x0007">
+        <description>KeypadLinc On/Off[2486SWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x31" top="1.0" />
+          <revision revNumber="0x32" top="1.05" />
+          <revision revNumber="0x33" top="1.1" />
+          <revision revNumber="0x36" top="1.1" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x0F" productKey="0x000000" flags="0x0007">
+        <description>KeypadLinc On/Off [2486SWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="ANY" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x0F" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc On/Off [2486SWH6]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB2" />
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03RCS" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x1E" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc On/Off [2487S]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x1E" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc On/Off [2487S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB2" />
+          <revision revNumber="0xB3" />
+          <revision revNumber="0xB5" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03RCS" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x2C" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc On/Off [2487S-50]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="KeypadLinc On/Off" category="0x02" subcategory="0x2C" productKey="0x000000" flags="0x000F">
+        <description>KeypadLinc On/Off [2487S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xB6" />
+          <revision revNumber="0xB7" />
+          <revision revNumber="0xB8" />
+          <revision revNumber="0xB9" />
+          <revision revNumber="0xBA" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03RCS" />
+      </device>
+      <device displayName="Wall Keypad Switch" category="0x02" subcategory="0x20" productKey="0x00008A" flags="0x000F">
+        <description>Wall Keypad Switch [4704]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc03R" />
+      </device>
+      <device displayName="In-LineLinc Relay" category="0x02" subcategory="0x10" productKey="0x00001B">
+        <description>In-LineLinc Relay [2475S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x17" />
+          <revision revNumber="0x20" />
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x27" />
+          <revision revNumber="0x28" />
+          <revision revNumber="0x29" />
+          <revision revNumber="0x2A" top="1.0, 1.1" />
+          <revision revNumber="0x2B" />
+          <revision revNumber="0x2C" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc01R" />
+      </device>
+      <device displayName="In-LineLinc Relay" category="0x02" subcategory="0x10" productKey="0x00001B">
+        <description>In-LineLinc Relay [2475S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x31" />
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0xA0" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02R" />
+      </device>
+      <device displayName="In-LineLinc Relay" category="0x02" subcategory="0x10" productKey="0x00001B" flags="0x000C">
+        <description>In-LineLinc Relay [2475S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD1" />
+          <revision revNumber="0xD2" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03RCS" />
+      </device>
+      <device displayName="In-LineLinc On/Off" category="0x02" subcategory="0x1F" productKey="0x000000" flags="0x0007">
+        <description>In-LineLinc On/Off [2475SDB]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02R" />
+      </device>
+      <device displayName="In-LineLinc On/Off" category="0x02" subcategory="0x1F" productKey="0x000000" flags="0x000C">
+        <description>In-LineLinc On/Off [2475SDB]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0x43" />
+          <revision revNumber="0xBB" />
+          <revision revNumber="0xBC" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03RCS" />
+      </device>
+      <device displayName="In-LineLinc On/Off" category="0x02" subcategory="0x2B" productKey="0x000000" flags="0x0007">
+        <description>In-LineLinc On/Off [2475SDB-50]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02R" />
+      </device>
+      <device displayName="In-LineLinc On/Off)" category="0x02" subcategory="0x2B" productKey="0x000000" flags="0x0007">
+        <description>In-LineLinc On/Off [2475SDB-50]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02RCS" />
+      </device>
+      <device displayName="In-Line Switch" category="0x02" subcategory="0x22" productKey="0x000093" flags="0x000C">
+        <description>In-Line Switch [4713]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03R" />
+      </device>
+      <device displayName="EZSwitch30" category="0x02" subcategory="0x11" productKey="0x000000">
+        <description>EZSwitch30 (240V, 30A load controller)</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="ICON In-LineLinc Relay" category="0x02" subcategory="0x12" productKey="0x00003E">
+        <description>ICON In-LineLinc Relay Companion [2474S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" />
+          <revision revNumber="0x38" />
+          <revision revNumber="0x92" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc02R" />
+      </device>
+      <device displayName="In-LineLinc Relay with Sense" category="0x02" subcategory="0x14" productKey="0x000000">
+        <description>In-LineLinc Relay with Sense[2475S2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x37" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03R" />
+      </device>
+      <device displayName="In-LineLinc Relay with Sense" category="0x02" subcategory="0x14" productKey="0x000000" flags="0x000C">
+        <description>In-LineLinc Relay with Sense[2475S2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.InlineLinc03RCS" />
+      </device>
+      <device displayName="ICON On/Off Switch" category="0x02" subcategory="0x16" productKey="0x000000" flags="0x0004">
+        <description>ICON On/Off Switch [2876S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x39" />
+          <revision revNumber="0xAF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc03R" />
+      </device>
+      <device displayName="ICON Appliance Module" category="0x02" subcategory="0x17" productKey="0x000000">
+        <description>ICON Appliance Module  [2856S3B]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x39" />
+          <revision revNumber="0xAE" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ApplianceLinc03" />
+      </device>
+      <device displayName="On/Off Module" category="0x02" subcategory="0x2D" productKey="0x000000" flags="0x0093">
+        <description>On/Off Module [2633-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginRelayFR" />
+      </device>
+      <device displayName="On/Off Module" category="0x02" subcategory="0x30" productKey="0x000000" flags="0x0093">
+        <description>On/Off Module [2633-432]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginRelayGER" />
+      </device>
+      <device displayName="On/Off Module" category="0x02" subcategory="0x35" productKey="0x000000" flags="0x0093">
+        <description>On/Off Module [2633-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginRelayUK" />
+      </device>
+      <device displayName="On/Off Module" category="0x02" subcategory="0x36" productKey="0x000000" flags="0x0093">
+        <description>On/Off Module [2633-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginRelayAU" />
+      </device>
+      <device displayName="On/Off Module" category="0x02" subcategory="0x37" productKey="0x000000" flags="0x009F">
+        <description>On/Off Module [2635-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PluginRelay" />
+      </device>
+      <device displayName="Micro On/Off" category="0x02" subcategory="0x2F" productKey="0x000000" flags="0x009F">
+        <description>Micro On/Off [2443-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x48" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01R" />
+      </device>
+      <device displayName="Micro On/Off" category="0x02" subcategory="0x31" productKey="0x000000" flags="0x009F">
+        <description>Micro On/Off [2443-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01R" />
+      </device>
+      <device displayName="Micro On/Off" category="0x02" subcategory="0x32" productKey="0x000000" flags="0x009F">
+        <description>Micro On/Off [2443-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01R" />
+      </device>
+      <device displayName="DIN Rail On/Off" category="0x02" subcategory="0x2E" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail On/Off [2453-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x48" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01R" />
+      </device>
+      <device displayName="DIN Rail On/Off" category="0x02" subcategory="0x33" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail On/Off [2453-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01R" />
+      </device>
+      <device displayName="DIN Rail On/Off" category="0x02" subcategory="0x34" productKey="0x000000" flags="0x009F">
+        <description>DIN Rail On/Off [2453-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DINRail01R" />
+      </device>
+    </category>
+    <category devCat="0x03" description="Network Bridges">
+      <device displayName="PowerLinc Serial" category="0x03" subcategory="0x01" productKey="0x000000">
+        <description>PowerLinc Serial Controller  [2414S]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="PowerLinc USB" category="0x03" subcategory="0x02" productKey="0x000000">
+        <description>PowerLinc USB Controller [2414U]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="ICON PLC Serial" category="0x03" subcategory="0x03" productKey="0x000000">
+        <description>ICON PLC Serial</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="ICON PLC USB" category="0x03" subcategory="0x04" productKey="0x000000">
+        <description>ICON PLC USB</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x05" productKey="0x00000C">
+        <description>PowerLinc Serial Modem [2412S]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM01" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x05" productKey="0x00000C">
+        <description>PowerLinc Serial Modem [2412S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x70" />
+          <revision revNumber="0x71" />
+          <revision revNumber="0x72" />
+          <revision revNumber="0x73" />
+          <revision revNumber="0x74" />
+          <revision revNumber="0x75" />
+          <revision revNumber="0x76" />
+          <revision revNumber="0x77" />
+          <revision revNumber="0x78" />
+          <revision revNumber="0x79" />
+          <revision revNumber="0x7A" />
+          <revision revNumber="0x80" />
+          <revision revNumber="0x85" />
+          <revision revNumber="0x90" />
+          <revision revNumber="0x92" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM02" />
+      </device>
+      <device displayName="IRLinc Receiver" category="0x03" subcategory="0x06" productKey="0x000000">
+        <description>IRLinc Receiver [2411R]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x22" top="1.0" />
+          <revision revNumber="0x37" top="1.0" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IRLinc01" />
+      </device>
+      <device displayName="IRLinc Receiver" category="0x03" subcategory="0x06" productKey="0x000000">
+        <description>IRLinc Receiver [2411R]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x40" top="1.0" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IRLinc01CS" />
+      </device>
+      <device displayName="IRLinc Transmitter" category="0x03" subcategory="0x07" productKey="0x000000">
+        <description>IRLinc Transmitter [2411T]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IRLincT01" />
+      </device>
+      <device displayName="IRLinc Transmitter" category="0x03" subcategory="0x07" productKey="0x000000">
+        <description>IRLinc Transmitter [2411T]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x4A" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IRLincT01CS" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x0B" productKey="0x000030">
+        <description>PowerLinc USB Modem [2412U]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM01" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x0B" productKey="0x000030">
+        <description>PowerLinc USB Modem [2412U]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x70" />
+          <revision revNumber="0x71" />
+          <revision revNumber="0x72" />
+          <revision revNumber="0x73" />
+          <revision revNumber="0x74" />
+          <revision revNumber="0x75" />
+          <revision revNumber="0x76" />
+          <revision revNumber="0x77" />
+          <revision revNumber="0x78" />
+          <revision revNumber="0x79" />
+          <revision revNumber="0x7A" />
+          <revision revNumber="0x80" />
+          <revision revNumber="0x85" />
+          <revision revNumber="0x90" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM02" />
+      </device>
+      <device displayName="SimpleHomeNet EZX10RF" category="0x03" subcategory="0x0D" productKey="0x000035">
+        <description>SimpleHomeNet EZX10RF</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZX10IR" category="0x03" subcategory="0x0F" productKey="0x00003B">
+        <description>EZX10IR</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+        <description>SmartLinc [2412N]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x70" />
+          <revision revNumber="0x7A" />
+          <revision revNumber="0x83" />
+          <revision revNumber="0x85" />
+          <revision revNumber="0x88" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc01" />
+      </device>
+      <device displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+        <description>SmartLinc [2412N]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x72" />
+          <revision revNumber="0x90" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc02" />
+      </device>
+      <device displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+        <description>SmartLinc [2412N]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x91" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0x98" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xCB" />
+          <revision revNumber="0xCC" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xDD" />
+          <revision revNumber="0xE6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc03" />
+      </device>
+      <device displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+        <description>SmartLinc [2412N]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xE8" />
+          <revision revNumber="0x9B" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc03CS" />
+      </device>
+      <device displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+        <description>SmartLinc[2412N]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xE0" />
+          <revision revNumber="0xE1" />
+          <revision revNumber="0xE2" />
+          <revision revNumber="0xE3" />
+          <revision revNumber="0xE4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x2B" productKey="0x000000" flags="0x0008">
+        <description>Hub, US [2242-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x2E" productKey="0x000000" flags="0x0008">
+        <description>Hub, EU [2242-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x30" productKey="0x000000" flags="0x0008">
+        <description>Hub, UK [2242-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x2F" productKey="0x000000" flags="0x0008">
+        <description>Hub [2242-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x31" productKey="0x000000" flags="0x0008">
+        <description>Hub [2242-232]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x32" productKey="0x000000" flags="0x0008">
+        <description>Hub [2242-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x33" productKey="0x000000" flags="0x0008">
+        <description>Hub [2245-555]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x34" productKey="0x000000" flags="0x0008">
+        <description>Hub [2245-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x35" productKey="0x000000" flags="0x0008">
+        <description>Hub [2245-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x36" productKey="0x000000" flags="0x0008">
+        <description>Hub [2245-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Hub" category="0x03" subcategory="0x37" productKey="0x000000" flags="0x0008">
+        <description>Hub</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Central Controller" category="0x03" subcategory="0x18" productKey="0x000000" flags="0x0008">
+        <description>Central Controller [2243-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Central Controller" category="0x03" subcategory="0x2C" productKey="0x000000" flags="0x0008">
+        <description>Central Controller [2243-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Central Controller" category="0x03" subcategory="0x2C" productKey="0x000000" flags="0x0008">
+        <description>Central Controller [2243-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="Central Controller" category="0x03" subcategory="0x2D" productKey="0x000000" flags="0x0008">
+        <description>Central Controller [2243-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLinc04CS" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x11" productKey="0x000000">
+        <description>PowerLinc Serial Modem [2413S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x88" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0x98" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xE3" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x11" productKey="0x000000">
+        <description>PowerLinc Serial Modem [2413S]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x9A" />
+          <revision revNumber="0x9B" />
+          <revision revNumber="0x3B" />
+          <revision revNumber="0x9E" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03CS" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x13" productKey="0x000030">
+        <description>PowerLinc USB Modem[2412UH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x72" />
+          <revision revNumber="0x73" />
+          <revision revNumber="0x74" />
+          <revision revNumber="0x75" />
+          <revision revNumber="0x76" />
+          <revision revNumber="0x77" />
+          <revision revNumber="0x78" />
+          <revision revNumber="0x79" />
+          <revision revNumber="0x7A" />
+          <revision revNumber="0x80" />
+          <revision revNumber="0x85" />
+          <revision revNumber="0x90" />
+          <revision revNumber="0xCD" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM02" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x14" productKey="0x00000C">
+        <description>PowerLinc Serial[2412SH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x72" />
+          <revision revNumber="0x73" />
+          <revision revNumber="0x74" />
+          <revision revNumber="0x75" />
+          <revision revNumber="0x76" />
+          <revision revNumber="0x77" />
+          <revision revNumber="0x78" />
+          <revision revNumber="0x79" />
+          <revision revNumber="0x7A" />
+          <revision revNumber="0x80" />
+          <revision revNumber="0x85" />
+          <revision revNumber="0x90" />
+          <revision revNumber="0xCD" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM02" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x15" productKey="0x000000">
+        <description>PowerLinc USB Modem [2413U]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x88" />
+          <revision revNumber="0x90" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0x98" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xE1" />
+          <revision revNumber="0xE3" />
+          <revision revNumber="0xE4" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x15" productKey="0x000000">
+        <description>PowerLinc USB Modem [2413U]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x9A" />
+          <revision revNumber="0x9B" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03CS" />
+      </device>
+      <device displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x19" productKey="0x000000">
+        <description>PowerLinc Serial Modem [2413SH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x92" />
+          <revision revNumber="0x98" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0x9A" />
+          <revision revNumber="0x9B" />
+          <revision revNumber="0xC8" />
+          <revision revNumber="0xC9" />
+          <revision revNumber="0xCB" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xE0" />
+          <revision revNumber="0xE3" />
+          <revision revNumber="0xE4" />
+          <revision revNumber="0x3B" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03CS" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x1A" productKey="0x000000">
+        <description>PowerLinc USB Modem [2413UH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x92" top="1.0" />
+          <revision revNumber="0x98" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0xC8" />
+          <revision revNumber="0xC9" />
+          <revision revNumber="0xCB" />
+          <revision revNumber="0xCD" />
+          <revision revNumber="0xCE" top="1.0" />
+          <revision revNumber="0xD4" top="1.0" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xE0" />
+          <revision revNumber="0xE1" />
+          <revision revNumber="0xE2" />
+          <revision revNumber="0xE3" />
+          <revision revNumber="0xE4" />
+          <revision revNumber="0xE5" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="PowerLinc USB Modem" category="0x03" subcategory="0x1A" productKey="0x000000">
+        <description>PowerLinc USB Modem [2413UH]</description>
+        <firmwareRevisions>
+          <revision revNumber="0xEB" />
+          <revision revNumber="0xEC" />
+          <revision revNumber="0xED" />
+          <revision revNumber="0xEE" />
+          <revision revNumber="0xEF" />
+          <revision revNumber="0x9A" />
+          <revision revNumber="0x9B" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03CS" />
+      </device>
+      <device displayName="iGateway" category="0x03" subcategory="0x1B" productKey="0x000000">
+        <description>iGateway [2423A4]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDeviceNoDB" />
+      </device>
+      <device displayName="USB Adapter" category="0x03" subcategory="0x1F" productKey="0x00007E">
+        <description>USB Adapter [2448A7]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="USB Adapter" category="0x03" subcategory="0x20" productKey="0x00007E">
+        <description>USB Adapter [2448A7]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="USB Adapter" category="0x03" subcategory="0x21" productKey="0x00008E">
+        <description>USB Adapter [2448A7H]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="USB Adapter" category="0x03" subcategory="0x23" productKey="0x00008E">
+        <description>USB Adapter [2448A7H]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="Central Controller Interface" category="0x03" subcategory="0x22" productKey="0x00008F" flags="0x000C">
+        <description>Central Controller Interface [4706A]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLM03" />
+      </device>
+      <device displayName="TouchLinc" category="0x03" subcategory="0x24" productKey="0x0000A2">
+        <description>TouchLinc [2448A7T]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TouchLinc01" />
+      </device>
+      <device displayName="TouchLinc" category="0x03" subcategory="0x24" productKey="0x0000A2">
+        <description>TouchLinc [2448A7T]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x98" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TouchLinc01CS" />
+      </device>
+      <device displayName="TouchLinc" category="0x03" subcategory="0x27" productKey="0x0000A2">
+        <description>TouchLinc [2448A7T]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TouchLinc01" />
+      </device>
+      <device displayName="TouchLinc" category="0x03" subcategory="0x27" productKey="0x0000A2">
+        <description>TouchLinc [2448A7T]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x98" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TouchLinc01CS" />
+      </device>
+    </category>
+    <category devCat="0x04" description="Irrigation Control">
+      <device displayName="Compacta EZRain Sprinkler Controller" category="0x04" subcategory="0x00" productKey="0x000001">
+        <description>Compacta EZRain Sprinkler Controller [31270]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+    </category>
+    <category devCat="0x05" description="Climate Control">
+      <device displayName="Broan SMSC080 Exhaust Fan" category="0x05" subcategory="0x00" productKey="0x000000">
+        <description>Broan SMSC080 Exhaust Fan</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZTherm " category="0x05" subcategory="0x01" productKey="0x000002">
+        <description>EZTherm</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Broan SMSC110 Exhaust Fan " category="0x05" subcategory="0x02" productKey="0x000000">
+        <description>Broan SMSC110 Exhaust Fan</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Thermostat Adapter" category="0x05" subcategory="0x03" productKey="0x00001F">
+        <description>Thermostat Adapter [2441V]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x22" />
+          <revision revNumber="0x23" />
+          <revision revNumber="0x24" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController01" />
+      </device>
+      <device displayName="Thermostat Adapter" category="0x05" subcategory="0x03" productKey="0x00001F">
+        <description>Thermostat Adapter [2441V]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x25" />
+          <revision revNumber="0x30" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController02" />
+      </device>
+      <device displayName="Thermostat Adapter" category="0x05" subcategory="0x03" productKey="0x00001F">
+        <description>Thermostat Adapter [2441V]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x49" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController03" />
+      </device>
+      <device displayName="Thermostat Adapter" category="0x05" subcategory="0x03" productKey="0x00001F">
+        <description>Thermostat Adapter [2441V]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x91" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0xCB" />
+          <revision revNumber="0xCE" />
+          <revision revNumber="0xCF" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04" />
+      </device>
+      <device displayName="Thermostat Adapter" category="0x05" subcategory="0x03" productKey="0x00001F">
+        <description>Thermostat Adapter [2441V]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x95" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04CS" />
+      </device>
+      <device displayName="7 Day Thermostat" category="0x05" subcategory="0x09" productKey="0x000094" flags="0x0008">
+        <description>7 Day Thermostat [4715]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04" />
+      </device>
+      <device displayName="Thermostat" category="0x05" subcategory="0x08" productKey="0x000000" flags="0x0008">
+        <description>Thermostat [2441TH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04" />
+      </device>
+      <device displayName="Thermostat" category="0x05" subcategory="0x0B" productKey="0x000000" flags="0x0008">
+        <description>Thermostat [2441TH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TempLinc02" />
+      </device>
+      <device displayName="Energy Display" category="0x09" subcategory="0x0D" productKey="0x000000" flags="0x0008">
+        <description>Thermostat [2441TH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TempLinc02" />
+      </device>
+      <device displayName="Wireless Thermostat" category="0x05" subcategory="0x07" productKey="0x000000" flags="0x0028">
+        <description>Wireless Thermostat [2441ZTH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ZoneLinc01" />
+      </device>
+      <device displayName="Wireless Thermostat" category="0x05" subcategory="0x0A" productKey="0x000000" flags="0x0028">
+        <description>Wireless Thermostat [2441ZTH]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ZoneLinc01" />
+      </device>
+      <device displayName="Integrated Remote Control Thermostat" category="0x05" subcategory="0x0E" productKey="0x000000" flags="0x0020">
+        <description>Integrated Remote Control Thermostat [2491T1E]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04" />
+      </device>
+      <device displayName="Integrated Remote Control Thermostat" category="0x05" subcategory="0x0E" productKey="0x000000">
+        <description>Integrated Remote Control Thermostat [2491T1E]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x95" />
+          <revision revNumber="0xD3" />
+          <revision revNumber="0xD4" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ThermostatController04CS" />
+      </device>
+      <device displayName="EZTherm" category="0x05" subcategory="0x04" productKey="0x000024">
+        <description>EZThermx</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Broan, Venmar, BEST Rangehoods " category="0x05" subcategory="0x05" productKey="0x000038">
+        <description>Broan, Venmar, BEST Rangehoods</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Thermostat" category="0x05" subcategory="0x0F" productKey="0x000000" flags="0x0008">
+        <description>Thermostat [2732-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TempLinc01" />
+      </device>
+      <device displayName="Thermostat" category="0x05" subcategory="0x10" productKey="0x000000" flags="0x0008">
+        <description>Thermostat [2732-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TempLinc01" />
+      </device>
+      <device displayName="Wireless Thermostat" category="0x05" subcategory="0x11" productKey="0x000000" flags="0x0028">
+        <description>Wireless Thermostat [2732-432]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ZoneLinc01" />
+      </device>
+      <device displayName="Wireless Thermostat" category="0x05" subcategory="0x12" productKey="0x000000" flags="0x0028">
+        <description>Wireless Thermostat [2732-532]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.ZoneLinc01" />
+      </device>
+    </category>
+    <category devCat="0x06" description="Pool and Spa Control">
+      <device displayName="EZPool" category="0x06" subcategory="0x00" productKey="0x000003">
+        <description>EZPool</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+    </category>
+    <category devCat="0x07" description="Sensors and Actuators">
+      <device displayName="I/O Linc" category="0x07" subcategory="0x00" productKey="0x000000">
+        <description>I/O Linc [2450]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x31" top="1.0" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc01" />
+      </device>
+      <device displayName="I/O Linc" category="0x07" subcategory="0x00" productKey="0x000000">
+        <description>I/O Linc [2450]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x33" top="1.1" />
+          <revision revNumber="0x35" />
+          <revision revNumber="0x36" top="1.2, 1.3" />
+          <revision revNumber="0x91" />
+          <revision revNumber="0x92" />
+          <revision revNumber="0x99" />
+          <revision revNumber="0x9F" />
+          <revision revNumber="0xA0" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02" />
+      </device>
+      <device displayName="I/O Linc" category="0x07" subcategory="0x00" productKey="0x000000" flags="0x000C">
+        <description>I/O Linc [2450]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x40" />
+          <revision revNumber="0x41" />
+          <revision revNumber="0xA1" />
+          <revision revNumber="0xA2" />
+          <revision revNumber="0xA3" />
+          <revision revNumber="0xA4" />
+          <revision revNumber="0xA5" />
+          <revision revNumber="0xA6" />
+          <revision revNumber="0xA7" />
+          <revision revNumber="0xA8" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="I/O Linc" category="0x07" subcategory="0x0D" productKey="0x000000" flags="0x000C">
+        <description>I/O Linc [2450-50-60]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="I/O Module" category="0x07" subcategory="0x0E" productKey="0x000000" flags="0x000C">
+        <description>I/O Module [2248-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="I/O Module" category="0x07" subcategory="0x0F" productKey="0x000000" flags="0x000C">
+        <description>I/O Module [2248-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="I/O Module" category="0x07" subcategory="0x10" productKey="0x000000" flags="0x000C">
+        <description>I/O Module [2248-442]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="I/O Module" category="0x07" subcategory="0x11" productKey="0x000000" flags="0x000C">
+        <description>I/O Module [2248-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.IOLinc02CS" />
+      </device>
+      <device displayName="EZSns1W" category="0x07" subcategory="0x01" productKey="0x000004">
+        <description>EZSns1W Sensor Interface Module</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZIO8T I/O Module" category="0x07" subcategory="0x02" productKey="0x0000012">
+        <description>EZIO8T I/O Module</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZIO2X4" category="0x07" subcategory="0x03" productKey="0x0000005">
+        <description>EZIO2X4</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZIO8SA" category="0x07" subcategory="0x04" productKey="0x0000013">
+        <description>EZIO8SA</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZSnsRF" category="0x07" subcategory="0x05" productKey="0x0000014">
+        <description>EZSnsRF</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZISnsRf" category="0x07" subcategory="0x06" productKey="0x0000015">
+        <description>EZISnsRf</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZIO6I" category="0x07" subcategory="0x07" productKey="0x0000014">
+        <description>EZIO6I</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="EZIO4O" category="0x07" subcategory="0x08" productKey="0x0000014">
+        <description>EZIO4O</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="SynchroLinc" category="0x07" subcategory="0x09" productKey="0x0000000" flags="0x0024">
+        <description>SynchroLinc [2423A5]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SynchroLinc01" />
+      </device>
+      <device displayName="SynchroLinc" category="0x07" subcategory="0x09" productKey="0x0000000" flags="0x0024">
+        <description>SynchroLinc [2423A5]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SynchroLinc01" />
+      </device>
+    </category>
+    <category devCat="0x08" description="Home Entertainment" />
+    <category devCat="0x09" description="Energy Management">
+      <device displayName="EZEnergy" category="0x09" subcategory="0x00" productKey="0x0000006">
+        <description>EZEnergy</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.iMeter01" />
+      </device>
+      <device displayName="OnSitePro Leak Detector" category="0x09" subcategory="0x01" productKey="0x0000020">
+        <description>OnSitePro Leak Detector</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="OnSitePro Control Valve" category="0x09" subcategory="0x02" productKey="0x0000021">
+        <description>OnSitePro Control Valve</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="iMeter Solo" category="0x09" subcategory="0x07" productKey="0x000006C" flags="0x0044">
+        <description>iMeter Solo [2423A1]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.iMeter01" />
+      </device>
+      <device displayName="iMeter Solo" category="0x09" subcategory="0x07" productKey="0x0000000" flags="0x0044">
+        <description>iMeter Solo [2423A1]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.iMeter01CS" />
+      </device>
+      <device displayName="220V/240V 30 AMP Load Controller Normally Open" category="0x09" subcategory="0x0A" productKey="0x0000000">
+        <description>220V/240V 30 AMP Load Controller Normally Open [2477SA1]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3A" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LoadControllerNO01" />
+      </device>
+      <device displayName="220V/240V 30 AMP Load Controller Normally Open" category="0x09" subcategory="0x0A" productKey="0x0000000">
+        <description>220V/240V 30 AMP Load Controller Normally Open [2477SA1]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LoadControllerNO01CS" />
+      </device>
+      <device displayName="220V/240V 30 AMP Load Controller Normally Closed" category="0x09" subcategory="0x0B" productKey="0x0000000">
+        <description>220V/240V 30 AMP Load Controller Normally Closed [2477SA2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x3A" />
+          <revision revNumber="0x40" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LoadControllerNC01" />
+      </device>
+      <device displayName="220V/240V 30 AMP Load Controller Normally Closed" category="0x09" subcategory="0x0B" productKey="0x0000000">
+        <description>220V/240V 30 AMP Load Controller Normally Closed [2477SA2]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xC8" />
+          <revision revNumber="0xC9" />
+          <revision revNumber="0xD4" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LoadControllerNC01CS" />
+      </device>
+      <device displayName="Network Hub" category="0x09" subcategory="0x10" productKey="0x0000090" flags="0x0008">
+        <description>Network Hub [4700]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.AccessPoint01" />
+      </device>
+    </category>
+    <category devCat="0x0A" description="Built-in Appliance Control" />
+    <category devCat="0x0B" description="Plumbing" />
+    <category devCat="0x0C" description="Communication" />
+    <category devCat="0x0D" description="Computer Control" />
+    <category devCat="0x0E" description="Window Coverings">
+      <device displayName="Somfy Drape Controller RF Bridge" category="0x0E" subcategory="0x00" productKey="0x000000B">
+        <description>Somfy Drape Controller RF Bridge</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Micro Open/Close" category="0x0E" subcategory="0x01" productKey="0x0000000">
+        <description>Micro Open/Close [2444-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01C" />
+      </device>
+      <device displayName="Micro Open/Close" category="0x0E" subcategory="0x02" productKey="0x0000000">
+        <description>Micro Open/Close [2444-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01C" />
+      </device>
+      <device displayName="Micro Open/Close" category="0x0E" subcategory="0x03" productKey="0x0000000">
+        <description>Micro Open/Close [2444-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.Micro01C" />
+      </device>
+    </category>
+    <category devCat="0x0F" description="Access Control">
+      <device displayName="Weiland Doors' Central Drive and Controller" category="0x0F" subcategory="0x00" productKey="0x000000E">
+        <description>Weiland Doors' Central Drive and Controller</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Weiland Doors' Secondary Central Drive" category="0x0F" subcategory="0x01" productKey="0x000000F">
+        <description>Weiland Doors' Secondary Central Drive</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Weiland Doors' Assist Drive" category="0x0F" subcategory="0x02" productKey="0x0000010">
+        <description>Weiland Doors' Assist Drive</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="Weiland Doors' Elevation Drive" category="0x0F" subcategory="0x03" productKey="0x0000011">
+        <description>Weiland Doors' Elevation Drive</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="Insteon.dll" type="SmartLabs.Insteon.Devices.GenericInsteonDevice" />
+      </device>
+      <device displayName="GarageHawk Garage Unit" category="0x0F" subcategory="0x04" productKey="0x0000000">
+        <description>GarageHawk Garage Unit</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.GarageHawkGarageUnit01" />
+      </device>
+      <device displayName="GarageHawk Remote Unit" category="0x0F" subcategory="0x05" productKey="0x0000000">
+        <description>GarageHawk Remote Unit</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.GarageHawkRemote01" />
+      </device>
+      <device displayName="MorningLinc" category="0x0F" subcategory="0x06" productKey="0x0000000">
+        <description>MorningLinc [2458A1]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MorningLinc01" />
+      </device>	  
+      <device displayName="MorningLinc" category="0x0F" subcategory="0x06" productKey="0x0000000">
+        <description>MorningLinc [2458A1]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x41" />
+          <revision revNumber="0xD5" />
+          <revision revNumber="0xD6" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MorningLinc01CS" />
+      </device>
+	  <device displayName="Lock Controller" category="0x0F" subcategory="0x0A" productKey="0x0000000">
+        <description>Lock Controller [2862-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x43" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MorningLinc01CS" />
+      </device>
+    </category>
+    <category devCat="0x10" description="Security, Health, Safety">
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x01" productKey="0x000000" flags="0x0020">
+        <description>Motion Sensor [2420M]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x22" />
+          <revision revNumber="0x24" />
+          <revision revNumber="0x26" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector01" />
+      </device>
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x01" productKey="0x000000" flags="0x0020">
+        <description>Motion Sensor [2420M]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x30" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x36" />
+          <revision revNumber="0x82" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02" />
+      </device>
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x01" productKey="0x000000" flags="0x0028">
+        <description>Motion Sensor [2842-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x8E" />
+          <revision revNumber="0x8F" />
+          <revision revNumber="0x93" />
+          <revision revNumber="0x41" />
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x03" productKey="0x0000A0" flags="0x0028">
+        <description>Motion Sensor [4716]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02" />
+      </device>
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x04" productKey="0x000000" flags="0x0028">
+        <description>Motion Sensor [2842-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Motion Sensor" category="0x10" subcategory="0x05" productKey="0x000000" flags="0x0028">
+        <description>Motion Sensor [2842-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Deadbolt" category="0x0F" subcategory="0x07" productKey="0x000000" flags="0x0028">
+        <description>Deadbolt [2863-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Deadbolt" category="0x0F" subcategory="0x08" productKey="0x000000" flags="0x0028">
+        <description>Deadbolt [2863-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Deadbolt" category="0x0F" subcategory="0x09" productKey="0x000000" flags="0x0028">
+        <description>Deadbolt [2863-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.MotionDetector02CS" />
+      </device>
+      <device displayName="Open/Close Sensor" category="0x10" subcategory="0x02" productKey="0x000000" flags="0x0020">
+        <description>Open/Close Sensor [2421]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x28" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TriggerLinc" />
+      </device>
+      <device displayName="Open/Close Sensor" category="0x10" subcategory="0x02" productKey="0x000000" flags="0x0028">
+        <description>Open/Close Sensor [2843-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x32" />
+          <revision revNumber="0x33" />
+          <revision revNumber="0x34" />
+          <revision revNumber="0x81" />
+          <revision revNumber="0x83" />
+          <revision revNumber="0x84" />
+          <revision revNumber="0x86" />
+          <revision revNumber="0x87" />
+          <revision revNumber="0x40" />
+          <revision revNumber="0x41" />
+          <revision revNumber="0x42" />
+          <revision revNumber="0x43" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TriggerLincCS" />
+      </device>
+      <device displayName="Open/Close Sensor" category="0x10" subcategory="0x02" productKey="0x000000" flags="0x0028">
+        <description>Open/Close Sensor [2843-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="0x88" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TriggerLincCS02" />
+      </device>
+      <device displayName="Open/Close Sensor" category="0x10" subcategory="0x06" productKey="0x000000" flags="0x0028">
+        <description>Open/Close Sensor [2843-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TriggerLincCS" />
+      </device>
+      <device displayName="Open/Close Sensor" category="0x10" subcategory="0x07" productKey="0x000000" flags="0x0028">
+        <description>Open/Close Sensor [2843-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.TriggerLincCS" />
+      </device>
+      <device displayName="Leak Sensor" category="0x10" subcategory="0x08" productKey="0x000000" flags="0x0028">
+        <description>Leak Sensor [2852-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.LeakSensor" />
+      </device>
+      <device displayName="Door Sensor" category="0x10" subcategory="0x09" productKey="0x000000" flags="0x0028">
+        <description>Door Sensor [2843-232]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DoorSensor" />
+      </device>
+      <device displayName="Door Sensor" category="0x10" subcategory="0x11" productKey="0x000000" flags="0x0028">
+        <description>Door Sensor [2845-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DoorSensor" />
+      </device>
+      <device displayName="Door Sensor" category="0x10" subcategory="0x14" productKey="0x000000" flags="0x0028">
+        <description>Door Sensor [2845-422]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DoorSensor" />
+      </device>
+      <device displayName="Door Sensor" category="0x10" subcategory="0x015" productKey="0x000000" flags="0x0028">
+        <description>Door Sensor [2845-522]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DoorSensor" />
+      </device>
+      <device displayName="Smoke Bridge" category="0x10" subcategory="0x0A" productKey="0x000000" flags="0x003C">
+        <description>Smoke Detector [2982-222]</description>
+        <firmwareRevisions>
+          <revision revNumber="Any" />
+        </firmwareRevisions>
+        <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmokeBridge01" />
+      </device>
+    </category>
+    <category devCat="0x11" description="Surveillance" />
+    <category devCat="0x12" description="Automotive" />
+    <category devCat="0x13" description="Pet Care" />
+    <category devCat="0x14" description="Toys" />
+    <category devCat="0x15" description="Timekeeping" />
+    <category devCat="0x16" description="Holiday" />
+  </availableDevices>
+  <availableGateways>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x05" productKey="0x00000C">
+      <description>PowerLinc USB Modem [2412S]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x70" />
+        <revision revNumber="0x71" />
+        <revision revNumber="0x72" />
+        <revision revNumber="0x73" />
+        <revision revNumber="0x74" />
+        <revision revNumber="0x75" />
+        <revision revNumber="0x76" />
+        <revision revNumber="0x77" />
+        <revision revNumber="0x78" />
+        <revision revNumber="0x79" />
+        <revision revNumber="0x7A" />
+        <revision revNumber="0x80" />
+        <revision revNumber="0x81" />
+        <revision revNumber="0x82" />
+        <revision revNumber="0x85" />
+        <revision revNumber="0x90" />
+        <revision revNumber="0xCD" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01S" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderS" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x0B" productKey="0x00000C">
+      <description>PowerLinc USB Modem [2412U]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x70" />
+        <revision revNumber="0x71" />
+        <revision revNumber="0x72" />
+        <revision revNumber="0x73" />
+        <revision revNumber="0x74" />
+        <revision revNumber="0x75" />
+        <revision revNumber="0x76" />
+        <revision revNumber="0x77" />
+        <revision revNumber="0x78" />
+        <revision revNumber="0x79" />
+        <revision revNumber="0x7A" />
+        <revision revNumber="0x80" />
+        <revision revNumber="0x81" />
+        <revision revNumber="0x82" />
+        <revision revNumber="0x85" />
+        <revision revNumber="0x90" />
+        <revision revNumber="0xCD" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x13" productKey="0x00000C">
+      <description>PowerLinc USB Modem [2412UH]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x70" />
+        <revision revNumber="0x71" />
+        <revision revNumber="0x72" />
+        <revision revNumber="0x73" />
+        <revision revNumber="0x74" />
+        <revision revNumber="0x75" />
+        <revision revNumber="0x76" />
+        <revision revNumber="0x77" />
+        <revision revNumber="0x78" />
+        <revision revNumber="0x79" />
+        <revision revNumber="0x7A" />
+        <revision revNumber="0x80" />
+        <revision revNumber="0x81" />
+        <revision revNumber="0x82" />
+        <revision revNumber="0x85" />
+        <revision revNumber="0x90" />
+        <revision revNumber="0xCD" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x14" productKey="0x00000C">
+      <description>PowerLinc Serial [2412SH]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x70" />
+        <revision revNumber="0x71" />
+        <revision revNumber="0x72" />
+        <revision revNumber="0x73" />
+        <revision revNumber="0x74" />
+        <revision revNumber="0x75" />
+        <revision revNumber="0x76" />
+        <revision revNumber="0x77" />
+        <revision revNumber="0x78" />
+        <revision revNumber="0x79" />
+        <revision revNumber="0x7A" />
+        <revision revNumber="0x80" />
+        <revision revNumber="0x81" />
+        <revision revNumber="0x82" />
+        <revision revNumber="0x85" />
+        <revision revNumber="0x90" />
+        <revision revNumber="0xCD" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01S" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderS" />
+    </gateway>
+    <gateway displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x11" productKey="0x000000">
+      <description>PowerLinc Serial Modem [2413S]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x92" />
+        <revision revNumber="0x98" />
+        <revision revNumber="0x99" />
+        <revision revNumber="0x9A" />
+        <revision revNumber="0x9B" />
+        <revision revNumber="0xC8" />
+        <revision revNumber="0xC9" />
+        <revision revNumber="0xCB" />
+        <revision revNumber="0xCD" />
+        <revision revNumber="0xCE" />
+        <revision revNumber="0xE0" />
+        <revision revNumber="0xE3" />
+        <revision revNumber="0xE4" />
+        <revision revNumber="0x3B" />
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02S" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderS" />
+    </gateway>
+    <gateway displayName="PowerLinc Serial Modem" category="0x03" subcategory="0x19" productKey="0x000000">
+      <description>PowerLinc Serial Modem [2413SH]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x92" />
+        <revision revNumber="0x98" />
+        <revision revNumber="0x99" />
+        <revision revNumber="0x9A" />
+        <revision revNumber="0x9B" />
+        <revision revNumber="0xC8" />
+        <revision revNumber="0xC9" />
+        <revision revNumber="0xCB" />
+        <revision revNumber="0xCD" />
+        <revision revNumber="0xCE" />
+        <revision revNumber="0xE0" />
+        <revision revNumber="0xE3" />
+        <revision revNumber="0xE4" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02S" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderS" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x1A" productKey="0x000000">
+      <description>PowerLinc USB Modem [2413UH]</description>
+      <firmwareRevisions>
+        <revision revNumber="0xC8" top="1.0" />
+        <revision revNumber="0xC9" top="1.0" />
+        <revision revNumber="0xCB" top="1.0" />
+        <revision revNumber="0xCD" top="1.0" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x15" productKey="0x000000">
+      <description>PowerLinc USB Modem [2413U]</description>
+      <firmwareRevisions>
+        <revision revNumber="0xC8" top="1.0" />
+        <revision revNumber="0xC9" top="1.0" />
+        <revision revNumber="0xCB" top="1.0" />
+        <revision revNumber="0xCD" top="1.0" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway01U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x1A" productKey="0x000000">
+      <description>PowerLinc USB Modem [2413UH]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x92" top="1.0" />
+        <revision revNumber="0x98" top="1.0" />
+        <revision revNumber="0x99" />
+        <revision revNumber="0x9A" />
+        <revision revNumber="0x9B" />
+        <revision revNumber="0xCE" top="1.0" />
+        <revision revNumber="0xD4" top="1.0" />
+        <revision revNumber="0xD5" />
+        <revision revNumber="0xE0" />
+        <revision revNumber="0xE1" />
+        <revision revNumber="0xE2" />
+        <revision revNumber="0xE3" />
+        <revision revNumber="0xE4" />
+        <revision revNumber="0xE5" />
+        <revision revNumber="0xEB" />
+        <revision revNumber="0xEC" />
+        <revision revNumber="0xED" />
+        <revision revNumber="0xEE" />
+        <revision revNumber="0xEF" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="PowerLinc USB Modem" category="0x03" subcategory="0x15" productKey="0x000000">
+      <description>PowerLinc USB Modem [2413U]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x92" top="1.0" />
+        <revision revNumber="0x98" top="1.0" />
+        <revision revNumber="0x99" />
+        <revision revNumber="0x9A" />
+        <revision revNumber="0x9B" />
+        <revision revNumber="0xCE" top="1.0" />
+        <revision revNumber="0xD4" top="1.0" />
+        <revision revNumber="0xD5" />
+        <revision revNumber="0xE0" />
+        <revision revNumber="0xE1" />
+        <revision revNumber="0xE2" />
+        <revision revNumber="0xE3" />
+        <revision revNumber="0xE4" />
+        <revision revNumber="0xE5" />
+        <revision revNumber="0x9E" />
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="USB Adapter" category="0x03" subcategory="0x1F" productKey="0x00008E">
+      <description>USB Adapter</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="USB Adapter" category="0x03" subcategory="0x20" productKey="0x00008E">
+      <description>USB Adapter</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="USB Adapter" category="0x03" subcategory="0x21" productKey="0x00008E">
+      <description>USB Adapter [2448A7H]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="Central Controller Interface" category="0x03" subcategory="0x22" productKey="0x00008F">
+      <description>Central Controller Interface [4706A]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="USB Adapter" category="0x03" subcategory="0x23" productKey="0x00008E">
+      <description>USB Adapter [2448A7H]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGateway02U" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.PLMGatewayLoaderU" />
+    </gateway>
+    <gateway displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+      <description>SmartLinc [2412N]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x91" />
+        <revision revNumber="0x92" />
+        <revision revNumber="0x98" />
+        <revision revNumber="0xCB" />
+        <revision revNumber="0xCC" />
+        <revision revNumber="0xCD" />
+        <revision revNumber="0xDD" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway01" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+      <description>SmartLinc [2412N]</description>
+      <firmwareRevisions>
+        <revision revNumber="0x9B" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="SmartLinc" category="0x03" subcategory="0x10" productKey="0x000000">
+      <description>SmartLinc [2412N]</description>
+      <firmwareRevisions>
+        <revision revNumber="0xE0" />
+        <revision revNumber="0xE1" />
+        <revision revNumber="0xE2" />
+        <revision revNumber="0xE3" />
+        <revision revNumber="0xE4" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x2B" productKey="0x000000" flags="0x0008">
+      <description>Hub, US [2242-222]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x2E" productKey="0x000000" flags="0x0008">
+      <description>Hub, EU [2242-422]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x30" productKey="0x000000" flags="0x0008">
+      <description>Hub, UK [2242-442]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x2F" productKey="0x000000" flags="0x0008">
+      <description>Hub, AU [2242-522]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x31" productKey="0x000000" flags="0x0008">
+      <description>Hub, [2242-232]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x31" productKey="0x000000" flags="0x0008">
+      <description>Hub, [2242-232]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x32" productKey="0x000000" flags="0x0008">
+      <description>Hub [2242-222]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x33" productKey="0x000000" flags="0x0008">
+      <description>Hub [2245-555]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x34" productKey="0x000000" flags="0x0008">
+      <description>Hub [2245-442]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x35" productKey="0x000000" flags="0x0008">
+      <description>Hub [2245-422]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x36" productKey="0x000000" flags="0x0008">
+      <description>Hub [2245-522]</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+    <gateway displayName="Hub" category="0x03" subcategory="0x37" productKey="0x000000" flags="0x0008">
+      <description>Hub</description>
+      <firmwareRevisions>
+        <revision revNumber="Any" />
+      </firmwareRevisions>
+      <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGateway02" />
+      <loader assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SmartLincGatewayLoader" />
+    </gateway>
+  </availableGateways>
+</deviceFactory>
