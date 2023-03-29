@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<deviceFactory version="2.9.85">
+<deviceFactory version="2.9.86">
   <availableDevices>
     <category devCat="0xFF" description="Reserved">
       <device displayName="Unrecognized INSTEON Device" category="0xFF" subcategory="0x00" productKey="0x000000">
@@ -146,6 +146,7 @@
         <description>Mini Remote - 4 Scene [2342-222]</description>
         <firmwareRevisions>
           <revision revNumber="0x38" />
+          <revision revNumber="0x39" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
@@ -153,6 +154,8 @@
       <device displayName="Mini Remote - 8 Scene" category="0x00" subcategory="0x1B" productKey="0x000000" flags="0x0028">
         <description>Mini Remote - 8 Scene [2342-232]</description>
         <firmwareRevisions>
+          <revision revNumber="0x38" />
+          <revision revNumber="0x39" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc201CS" />
@@ -161,6 +164,7 @@
         <description>Mini Remote - Switch [2342-242]</description>
         <firmwareRevisions>
           <revision revNumber="0x38" />
+          <revision revNumber="0x39" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.RemoteLinc202CS" />
@@ -522,6 +526,7 @@
       <device displayName="SwitchLinc 2-Wire Dimmer" category="0x01" subcategory="0x24" productKey="0x000000" flags="0x001F">
         <description>SwitchLinc 2-Wire Dimmer (RF) [2474DWH]</description>
         <firmwareRevisions>
+          <revision revNumber="0x42" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02DCS" />
@@ -698,7 +703,8 @@
         <description>Keypad Dimmer[2334-222]</description>
         <firmwareRevisions>
  	  <revision revNumber="CD" /> 
- 	  <revision revNumber="44" />         
+ 	  <revision revNumber="44" />
+ 	  <revision revNumber="45" />         
 	  <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc04DCS" />
@@ -709,6 +715,7 @@
           <revision revNumber="C0" />
 		  <revision revNumber="0x43" />
 		  <revision revNumber="0x44" />
+		  <revision revNumber="0x45" />
 		  <revision revNumber="CD" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.KeypadLinc04DCS" />
@@ -951,6 +958,7 @@
           <revision revNumber="0xBB" />
           <revision revNumber="0xBC" />
           <revision revNumber="0x41" />
+          <revision revNumber="0x44" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.OutletLinc01DCS" />
       </device>
@@ -1417,6 +1425,7 @@
         <description>SwitchLinc Relay [2477S]</description>
         <firmwareRevisions>
           <revision revNumber="0x44" />
+          <revision revNumber="0x45" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.SwitchLinc02RCS" />
@@ -2991,6 +3000,7 @@
       <device displayName="Door Sensor" category="0x10" subcategory="0x11" productKey="0x000000" flags="0x0028">
         <description>Door Sensor [2845-222]</description>
         <firmwareRevisions>
+          <revision revNumber="0x45" />
           <revision revNumber="Any" />
         </firmwareRevisions>
         <activation assembly="SmartLabs.Insteon.Devices.dll" type="SmartLabs.Insteon.Devices.DoorSensor" />
