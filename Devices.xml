@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<deviceFactory version="2.9.86">
+<deviceFactory version="2.9.87">
   <availableDevices>
     <category devCat="0xFF" description="Reserved">
       <device displayName="Unrecognized INSTEON Device" category="0xFF" subcategory="0x00" productKey="0x000000">
@@ -1628,6 +1628,7 @@
         <description>KeypadLinc On/Off [2487S]</description>
         <firmwareRevisions>
           <revision revNumber="0x41" />
+          <revision revNumber="0x44" />
           <revision revNumber="0xB6" />
           <revision revNumber="0xB7" />
           <revision revNumber="0xB8" />
